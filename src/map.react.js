@@ -21,7 +21,7 @@ import React, {PropTypes, Component} from 'react';
 import autobind from 'autobind-decorator';
 import pureRender from 'pure-render-decorator';
 
-import mapboxgl, {Point} from 'mapbox-gl/dist';
+import mapboxgl, {Point} from 'mapbox-gl';
 import {select} from 'd3-selection';
 import Immutable from 'immutable';
 import assert from 'assert';

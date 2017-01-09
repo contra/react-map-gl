@@ -20,10 +20,10 @@
 
 // NOTE: Transform is not a public API so we should be careful to always lock
 // down mapbox-gl to a specific major, minor, and patch version.
-import Transform from 'mapbox-gl/dist/geo/transform';
+import Transform from 'mapbox-gl/js/geo/transform';
 export {Transform as default};
 
-import {Point} from 'mapbox-gl/dist';
+import {Point} from 'mapbox-gl';
 
 export function mod(value, divisor) {
   const modulus = value % divisor;
