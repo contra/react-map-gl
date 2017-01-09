@@ -21,7 +21,7 @@
 // NOTE: Transform is not a public API so we should be careful to always lock
 // down mapbox-gl to a specific major, minor, and patch version.
 import Transform from './transform';
-import {LngLatBounds, Point} from 'mapbox-gl';
+import {LngLatBounds, Point} from 'mapbox-gl/dist';
 
 /**
  * Returns map settings {latitude, longitude, zoom}
